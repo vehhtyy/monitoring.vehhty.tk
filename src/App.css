@@ -1,0 +1,33 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple-color: #BF94FF;
+  --black-color: #1F1F23;
+  --white-color: #EFEFF1;
+  --grey-color: #3e3e44;
+  --dark-grey-color: #28282e;
+  --green-color: #00db84;
+  --grey-light-color: #777;
+  --dark-grey-color2: #2f2f36;
+}
+
+a {
+  
+  color: var(--purple-color) !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: var(--white-color) !important;
+  transition: all ease-in-out .5s;
+}
+
+body {
+  background-color: var(--black-color) !important;
+  color: var(--white-color) !important;
+}

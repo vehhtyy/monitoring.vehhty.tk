@@ -1,0 +1,18 @@
+.streamers-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    gap: 6px;
+}
+h5{
+    color: var(--purple-color);
+
+}
+.streamers-list{
+    margin-top: 20px;
+}
+@media  screen and (max-width: 576px) {
+    .streamers-list{
+        grid-template-columns: 1fr 1fr;
+    }
+}

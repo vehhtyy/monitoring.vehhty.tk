@@ -1,0 +1,104 @@
+.chart {
+    background-color: #28282e;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+}
+
+.chart__channel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px 20px 30px;
+    flex-wrap: wrap;
+}
+
+.channel__logo-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.channel__additional-info{
+    display: flex;
+    flex-direction: column;
+
+}
+.channel__name {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.channel__logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.chart__stream-date {
+    font-size: .85rem;
+    color: #a7a7a7
+}
+
+.chart__stream-avg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-tooltip{
+    background-color: var(--dark-grey-color2);
+    color: var(--white-color);
+    padding: 8px;
+    font-size: .9rem;
+    border-radius: 10px;
+    
+}
+.custom-tooltip p{
+    margin-bottom: .5rem;
+}
+.custom-tooltip p:last-child{
+    margin-bottom: 0;
+}
+.green-text{
+    color: var(--green-color);
+}
+.purple-text{
+    color: var(--purple-color);
+}
+.recharts-legend-wrapper{
+    width: auto!important;
+    position: static!important;
+    display: block;
+}
+.chart__graph{
+    min-height: 360px;
+    height: 70%;
+}
+
+
+@media screen and (max-width: 1280px){
+    
+}
+  @media screen and (max-width: 1050px){
+    
+  }
+  @media screen and (max-width: 768px){
+    .chart {
+        padding: 10px;
+    }
+    .chart__channel > *{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
+@media  screen and (max-width: 576px) {
+    .chart__stream-avg{
+        margin: auto;
+    }
+}
